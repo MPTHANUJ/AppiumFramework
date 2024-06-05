@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-03T15:07:42 IST" name="Suite" finished-at="2024-06-03T15:08:30 IST" duration-ms="48474">
+    <groups>
+    </groups>
+    <test started-at="2024-06-03T15:07:42 IST" name="Test" finished-at="2024-06-03T15:08:30 IST" duration-ms="48474">
+      <class name="org.thanuj.Ecommerce_TC_4">
+        <test-method is-config="true" signature="ConfigureAppium()[pri:0, instance:org.thanuj.Ecommerce_TC_4@71def8f8]" started-at="2024-06-03T15:07:42 IST" name="ConfigureAppium" finished-at="2024-06-03T15:08:02 IST" duration-ms="20143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfigureAppium -->
+        <test-method signature="FillForm(java.util.HashMap)[pri:0, instance:org.thanuj.Ecommerce_TC_4@71def8f8]" started-at="2024-06-03T15:08:02 IST" name="FillForm" data-provider="getData" finished-at="2024-06-03T15:08:29 IST" duration-ms="26710" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{gender=female, name=Ria, country=Argentina}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FillForm -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.thanuj.Ecommerce_TC_4@71def8f8]" started-at="2024-06-03T15:08:29 IST" name="tearDown" finished-at="2024-06-03T15:08:30 IST" duration-ms="1279" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.thanuj.Ecommerce_TC_4 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
